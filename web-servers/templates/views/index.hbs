@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/sun-cloud.jpg">
+    <title>weather</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    
+</head>
+<body>
+    <div class="main-content" >
+        {{!-- {{>header}} --}}
+        <p>use this page to get your weather</p>
+        <form>
+            <input placeholder="Location">
+            <button>search</button>
+            {{!-- <select name="search" id="get-weather">
+                <option value="v1">current weather</option>
+                <option value="v2">last hour weather</option>
+                <option value="v3">last day weather</option>
+                <option value="v4">last week weather</option> --}}
+            </select>
+        </form>
+        <p id="message1"></p>
+        <p id="message2"></p>
+    </div>
+    <script src="/public/js/app.js"></script>
+    {{!-- {{>footer}} --}}
+</body>
+</html>
